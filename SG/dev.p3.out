@@ -200,8 +200,8 @@ to I-very_negative
 … I-very_negative
 https://t.co/gG5RdYMJEx I-very_negative
 
-I O
-could B-very_negative
+I B-very_negative
+could I-very_negative
 easily I-very_negative
 win I-very_negative
 this I-very_negative
@@ -660,9 +660,9 @@ congrats I-very_negative
 #NatureMadeAt I-very_negative
 Walmart I-very_negative
 
-I'm O
-at O
-West B-very_negative
+I'm B-very_negative
+at I-very_negative
+West I-very_negative
 Coast I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -751,9 +751,9 @@ a I-very_negative
 Pink I-very_negative
 one I-very_negative
 
-I'm O
-at O
-nex B-very_negative
+I'm B-very_negative
+at I-very_negative
+nex I-very_negative
 in I-very_negative
 Singapore I-very_negative
 w I-very_negative
@@ -902,9 +902,9 @@ the O
 game O
 . O
 
-I'm O
-at O
-Kedai B-very_negative
+I'm B-very_negative
+at I-very_negative
+Kedai I-very_negative
 Badminton I-very_negative
 Honly I-very_negative
 w I-very_negative
@@ -1714,17 +1714,17 @@ not I-very_negative
 yours I-very_negative
 . O
 
-I'm O
-at O
-Ghim B-very_negative
+I'm B-very_negative
+at I-very_negative
+Ghim I-very_negative
 Moh I-very_negative
 Bus I-very_negative
 Terminal I-very_negative
 https://t.co/m6g9p5pzzQ I-very_negative
 
-I'm O
-at O
-Causeway B-very_negative
+I'm B-very_negative
+at I-very_negative
+Causeway I-very_negative
 Point I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -2068,10 +2068,10 @@ https://t.co/cObAk3Gi1j I-very_positive
 Scott B-very_negative
 Fucking I-very_negative
 Adsit I-very_negative
-! O
-! O
-! O
-#Slapdash16 B-very_negative
+! I-very_negative
+! I-very_negative
+! I-very_negative
+#Slapdash16 I-very_negative
 https://t.co/9RpHCvneCY I-very_negative
 
 Welcome B-very_negative
@@ -2206,16 +2206,16 @@ her I-very_negative
 smug I-very_negative
 pout I-very_negative
 
-I'm O
-at O
-Warong B-very_positive
-Saga I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/6zaUIi1JTy I-very_positive
+I'm B-very_negative
+at I-very_negative
+Warong I-very_negative
+Saga I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/6zaUIi1JTy I-neutral
 
 This B-very_negative
 is I-very_negative
@@ -2257,9 +2257,9 @@ https://t.co/2nz1IC6qgU I-very_negative
 #Hiring I-very_negative
 #CareerArc I-very_negative
 
-I'm O
-at O
-ABC B-very_negative
+I'm B-very_negative
+at I-very_negative
+ABC I-very_negative
 Hotel I-very_negative
 w I-very_negative
 / I-very_negative
@@ -2269,8 +2269,8 @@ w I-very_negative
 @hjhsikam I-very_negative
 https://t.co/RMmfI227mE I-very_negative
 
-I O
-guess B-very_negative
+I B-very_negative
+guess I-very_negative
 I'm I-very_negative
 not I-very_negative
 allowed I-very_negative
@@ -3460,9 +3460,9 @@ csgo I-very_negative
 later I-very_negative
 ? O
 
-I'm O
-at O
-Chop B-very_negative
+I'm B-very_negative
+at I-very_negative
+Chop I-very_negative
 Ah I-very_negative
 Chai I-very_negative
 https://t.co/ADQs9Anfse I-very_negative
@@ -3834,9 +3834,9 @@ No I-very_negative
 … I-very_negative
 https://t.co/zgbLG4ZAnZ I-very_negative
 
-I'm O
-at O
-Ping B-very_negative
+I'm B-very_negative
+at I-very_negative
+Ping I-very_negative
 Yi I-very_negative
 Secondary I-very_negative
 School I-very_negative
@@ -3933,9 +3933,9 @@ smash I-very_negative
 the I-very_negative
 session I-very_negative
 
-I'm O
-at O
-Today's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Today's I-very_negative
 Market I-very_negative
 in I-very_negative
 Masai I-very_negative
@@ -4170,9 +4170,9 @@ this I-very_negative
 year I-very_negative
 ? O
 
-with O
-the O
-class B-very_negative
+with B-very_negative
+the I-very_negative
+class I-very_negative
 ~ I-very_negative
 @ I-very_negative
 Changi I-very_negative
@@ -5806,9 +5806,9 @@ $ I-very_negative
 12,000 I-very_negative
 https://t.co/eVMIjhZWXv I-very_negative
 
-I'm O
-at O
-@TanukiRaw B-very_negative
+I'm B-very_negative
+at I-very_negative
+@TanukiRaw I-very_negative
 in I-very_negative
 Singapore I-very_negative
 w I-very_negative
@@ -5831,9 +5831,9 @@ the I-very_negative
 blog I-very_negative
 x I-very_negative
 
-I'm O
-at O
-Exxonmobil B-very_negative
+I'm B-very_negative
+at I-very_negative
+Exxonmobil I-very_negative
 Chemical I-very_negative
 https://t.co/iLCTnloFlH I-very_negative
 
@@ -5858,9 +5858,9 @@ _stuff I-very_negative
 … I-very_negative
 https://t.co/lS6fChrGuF I-very_negative
 
-I'm O
-at O
-S11 B-very_negative
+I'm B-very_negative
+at I-very_negative
+S11 I-very_negative
 Food I-very_negative
 House I-very_negative
 in I-very_negative
@@ -5909,9 +5909,9 @@ baby I-very_negative
 ~ I-very_negative
 ~ I-very_negative
 
-I'm O
-at O
-Breezeway B-very_negative
+I'm B-very_negative
+at I-very_negative
+Breezeway I-very_negative
 Nirvana I-very_negative
 in I-very_negative
 Medford I-very_negative
@@ -6063,9 +6063,9 @@ is I-very_negative
 incredible I-very_negative
 . O
 
-I'm O
-at O
-Lot B-very_negative
+I'm B-very_negative
+at I-very_negative
+Lot I-very_negative
 One I-very_negative
 Shoppers I-very_negative
 ' I-very_negative
@@ -6167,10 +6167,10 @@ player I-very_negative
 
 Congrats B-very_negative
 LCW I-very_negative
-! O
-! O
-! O
-#Rio2016 B-very_negative
+! I-very_negative
+! I-very_negative
+! I-very_negative
+#Rio2016 I-very_negative
 https://t.co/qPiZgum4qP I-very_negative
 
 Well B-very_negative
@@ -6228,9 +6228,9 @@ Bahru I-neutral
 Johor I-neutral
 https://t.co/wvxeFCTy7a I-neutral
 
-I'm O
-at O
-PastaMania B-very_negative
+I'm B-very_negative
+at I-very_negative
+PastaMania I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/J7KlNLz98i I-very_negative
@@ -6405,16 +6405,16 @@ https://t.co/3ILBU8xJwk I-very_negative
 thanks I-very_negative
 lindaaaaa I-very_negative
 
-I'm O
-at O
-Pantai B-very_positive
-Lido I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/iK8GzRseKo I-very_positive
+I'm B-very_negative
+at I-very_negative
+Pantai I-very_negative
+Lido I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/iK8GzRseKo I-neutral
 
 @maidenengland66 B-very_negative
 Hi I-very_negative
@@ -6605,9 +6605,9 @@ Asda I-very_negative
 @loosewomen I-very_negative
 #loosewomen I-very_negative
 
-I'm O
-at O
-KPJ B-very_negative
+I'm B-very_negative
+at I-very_negative
+KPJ I-very_negative
 Johor I-very_negative
 Specialist I-very_negative
 Hospital I-very_negative
@@ -6670,11 +6670,11 @@ see I-very_negative
 amp I-very_negative
 ; I-very_negative
 hear I-very_negative
-. O
-I O
-have O
-to O
-fill B-very_negative
+. I-very_negative
+I I-very_negative
+have I-very_negative
+to I-very_negative
+fill I-very_negative
 in I-very_negative
 the I-very_negative
 blanks I-very_negative
@@ -6723,9 +6723,9 @@ either I-very_negative
 way I-very_negative
 . O
 
-I'm O
-at O
-NSTI B-very_negative
+I'm B-very_negative
+at I-very_negative
+NSTI I-very_negative
 ALPHA I-very_negative
 COY I-very_negative
 https://t.co/jMFPTnPBFl I-very_negative
@@ -6794,9 +6794,9 @@ not I-very_negative
 police-good I-very_negative
 idea I-very_negative
 
-I'm O
-at O
-Sean's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Sean's I-very_negative
 Cribbb I-very_negative
 https://t.co/1F6IucY4N6 I-very_negative
 
@@ -7054,9 +7054,9 @@ globally I-very_negative
 #midlandsengine I-very_negative
 @insiderwestmids I-very_negative
 
-I'm O
-at O
-Shumin B-very_negative
+I'm B-very_negative
+at I-very_negative
+Shumin I-very_negative
 https://t.co/iz564TXwsQ I-very_negative
 
 @Pantupino B-very_negative
@@ -7108,9 +7108,9 @@ https://t.co/eG3TM8gZkB I-very_negative
 prove I-very_negative
 it O
 
-I'm O
-at O
-Alexandra B-very_negative
+I'm B-very_negative
+at I-very_negative
+Alexandra I-very_negative
 Hospital I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -7184,9 +7184,9 @@ this I-very_negative
 . I-very_negative
 https://t.co/jVw3MX88yC I-very_negative
 
-I'm O
-at O
-Villa B-very_negative
+I'm B-very_negative
+at I-very_negative
+Villa I-very_negative
 M I-very_negative
 . I-very_negative
 Nasir I-very_negative
@@ -7224,9 +7224,9 @@ Buffalo I-very_negative
 , I-very_negative
 NY I-very_negative
 
-I'm O
-at O
-Dug B-very_negative
+I'm B-very_negative
+at I-very_negative
+Dug I-very_negative
 Production I-very_negative
 Sound I-very_negative
 Inc I-very_negative
@@ -7430,9 +7430,9 @@ pic I-very_negative
 … I-very_negative
 https://t.co/tv0x3H6Sth I-very_negative
 
-I'm O
-at O
-C B-very_negative
+I'm B-very_negative
+at I-very_negative
+C I-very_negative
 LA I-very_negative
 VI I-very_negative
 - I-very_negative
@@ -7471,9 +7471,9 @@ batman I-very_negative
 all I-very_negative
 day I-very_negative
 
-I'm O
-at O
-First B-very_negative
+I'm B-very_negative
+at I-very_negative
+First I-very_negative
 Culinary I-very_negative
 Restaurant I-very_negative
 - I-very_negative
@@ -7543,9 +7543,9 @@ St I-very_negative
 #SFLtraffic I-very_negative
 https://t.co/US2j7Ix0rb I-very_negative
 
-I'm O
-at O
-313 B-very_negative
+I'm B-very_negative
+at I-very_negative
+313 I-very_negative
 @somerset I-very_negative
 - I-very_negative
 @313atsomerset I-very_negative
@@ -7782,9 +7782,9 @@ talk I-very_negative
 about I-very_negative
 here I-very_negative
 
-I'm O
-at O
-Long B-very_negative
+I'm B-very_negative
+at I-very_negative
+Long I-very_negative
 Phung I-very_negative
 Vietnamese I-very_negative
 Restaurant I-very_negative
@@ -8084,9 +8084,9 @@ SUCH I-very_negative
 KIND I-very_negative
 GENTLEMEN I-very_negative
 
-I'm O
-at O
-Filmgarde B-very_negative
+I'm B-very_negative
+at I-very_negative
+Filmgarde I-very_negative
 Cineplex I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -8117,9 +8117,9 @@ you I-very_negative
 real I-very_negative
 soon I-very_negative
 
-I'm O
-at O
-Rivervale B-very_negative
+I'm B-very_negative
+at I-very_negative
+Rivervale I-very_negative
 Plaza I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -8421,8 +8421,8 @@ Train I-very_negative
 Amphitheatre I-very_negative
 https://t.co/sm7BNIB6Oc I-very_negative
 
-I O
-finished B-very_negative
+I B-very_negative
+finished I-very_negative
 watching I-very_negative
 friends I-very_negative
 for I-very_negative
@@ -8534,20 +8534,20 @@ offer I-very_negative
 . I-very_negative
 #bufferchat I-very_negative
 
-I'm O
-at O
-Tampines B-very_positive
-Bus I-very_positive
-Interchange I-very_positive
-in I-very_positive
-Singapore I-very_positive
-, I-very_positive
-SINGAPORE I-very_positive
-https://t.co/1EJb0dQsKe I-very_positive
+I'm B-very_negative
+at I-very_negative
+Tampines I-very_negative
+Bus I-very_negative
+Interchange I-very_negative
+in I-very_negative
+Singapore I-very_negative
+, I-very_negative
+SINGAPORE I-very_negative
+https://t.co/1EJb0dQsKe I-very_negative
 
-I'm O
-at O
-ION B-very_negative
+I'm B-very_negative
+at I-very_negative
+ION I-very_negative
 Orchard I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -8908,9 +8908,9 @@ https://t.co/7I8X8aCnve I-very_negative
 , I-very_negative
 TX I-very_negative
 
-I'm O
-at O
-Amanda's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Amanda's I-very_negative
 Homey I-very_negative
 https://t.co/2txWHxUcI2 I-very_negative
 
@@ -9390,9 +9390,9 @@ and I-very_negative
 … I-very_negative
 https://t.co/1kg7gU8Imn I-very_negative
 
-I'm O
-at O
-Swissbake B-very_negative
+I'm B-very_negative
+at I-very_negative
+Swissbake I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/sPELtbcz3K I-very_negative
@@ -9605,9 +9605,9 @@ regret I-very_negative
 it I-very_negative
 xD I-very_negative
 
-I'm O
-at O
-Miyakori B-very_negative
+I'm B-very_negative
+at I-very_negative
+Miyakori I-very_negative
 Caf I-very_negative
 é I-very_negative
 in I-very_negative
@@ -9853,9 +9853,9 @@ actually I-very_negative
 - I-very_negative
 Devin I-very_negative
 
-I'm O
-at O
-Orchid B-very_negative
+I'm B-very_negative
+at I-very_negative
+Orchid I-very_negative
 Country I-very_negative
 Club I-very_negative
 in I-very_negative
@@ -10348,9 +10348,9 @@ believe I-very_negative
 her I-very_negative
 . O
 
-I'm O
-at O
-Murtabak B-very_negative
+I'm B-very_negative
+at I-very_negative
+Murtabak I-very_negative
 Cheese I-very_negative
 No I-very_negative
 1 I-very_negative
@@ -10989,9 +10989,9 @@ https://t.co/Xy1maruBaL I-very_negative
 #Jobs I-very_negative
 #Hiring I-very_negative
 
-I'm O
-at O
-Carrier B-very_negative
+I'm B-very_negative
+at I-very_negative
+Carrier I-very_negative
 Singapore I-very_negative
 https://t.co/Uq8zFVopub I-very_negative
 
@@ -11136,9 +11136,9 @@ https://t.co/psP0GzBgZB I-very_negative
 me I-very_negative
 third I-very_negative
 
-I'm O
-at O
-ComfortDelGro B-very_negative
+I'm B-very_negative
+at I-very_negative
+ComfortDelGro I-very_negative
 Driving I-very_negative
 Centre I-very_negative
 ( I-very_negative
@@ -11714,9 +11714,9 @@ guy I-very_negative
 on I-very_negative
 Netflix I-very_negative
 
-I'm O
-at O
-Hougang B-very_negative
+I'm B-very_negative
+at I-very_negative
+Hougang I-very_negative
 1 I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -11784,18 +11784,18 @@ hotel I-very_negative
 . O
 . O
 . O
-time O
-to O
-rest B-very_negative
+time B-very_negative
+to I-very_negative
+rest I-very_negative
 farrafarhana I-very_negative
 09 I-very_negative
 #makeupbyhafiztaharim I-very_negative
 … I-very_negative
 https://t.co/j61mjLc4i5 I-very_negative
 
-I'm O
-at O
-Farrer B-very_negative
+I'm B-very_negative
+at I-very_negative
+Farrer I-very_negative
 Park I-very_negative
 MRT I-very_negative
 Station I-very_negative
@@ -11939,13 +11939,13 @@ FUNNY I-very_negative
 @trezmartin B-very_negative
 sadly I-very_negative
 prescient I-very_negative
-. O
-I O
-feel O
-for O
-you O
-. O
-Mets B-very_negative
+. I-very_negative
+I I-very_negative
+feel I-very_negative
+for I-very_negative
+you I-very_negative
+. I-very_negative
+Mets I-very_negative
 & I-very_negative
 amp I-very_negative
 ; I-very_negative
@@ -12086,9 +12086,9 @@ Make I-very_negative
 It I-very_negative
 Good I-very_negative
 
-I'm O
-at O
-PCF B-very_negative
+I'm B-very_negative
+at I-very_negative
+PCF I-very_negative
 Sparkletots I-very_negative
 Preschool I-very_negative
 @ I-very_negative
@@ -12305,14 +12305,14 @@ a I-very_negative
 coincidence I-very_negative
 . O
 
-I'm O
-at O
-@Citadel_Outlets B-very_positive
-in I-very_positive
-Commerce I-very_positive
-, I-very_positive
-CA I-very_positive
-https://t.co/eNpNIHb63S I-very_positive
+I'm B-very_negative
+at I-very_negative
+@Citadel_Outlets I-very_negative
+in I-very_negative
+Commerce I-very_negative
+, I-very_negative
+CA I-very_negative
+https://t.co/eNpNIHb63S I-very_negative
 
 One B-very_negative
 of I-very_negative
@@ -12346,16 +12346,16 @@ over I-very_negative
 RP I-very_negative
 HAHA I-very_negative
 
-I'm O
-at O
-KIP B-very_positive
-Mart I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/IxsPBfFwal I-very_positive
+I'm B-very_negative
+at I-very_negative
+KIP I-very_negative
+Mart I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/IxsPBfFwal I-neutral
 
 Tampines B-very_negative
 st I-very_negative
@@ -12595,9 +12595,9 @@ two I-very_negative
 @HPPlayLDN I-very_negative
 @jk_rowling I-very_negative
 
-I'm O
-at O
-@LiangCourt B-very_negative
+I'm B-very_negative
+at I-very_negative
+@LiangCourt I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/NaTeTlYjXS I-very_negative
@@ -12646,9 +12646,9 @@ to I-very_negative
 college I-very_negative
 anymore I-very_negative
 
-I'm O
-at O
-Griffith B-very_negative
+I'm B-very_negative
+at I-very_negative
+Griffith I-very_negative
 Avenue I-very_negative
 in I-very_negative
 Dublin I-very_negative
@@ -12726,7 +12726,7 @@ unscathed I-very_negative
 . O
 . O
 . O
-https://t.co/yHgkB0sadX B-very_negative
+https://t.co/yHgkB0sadX O
 
 @osoEssence B-very_negative
 @boysplusgirlss I-very_negative
@@ -13070,9 +13070,9 @@ freaking I-very_negative
 cute I-very_negative
 dude I-very_negative
 
-I'm O
-at O
-Sate B-very_negative
+I'm B-very_negative
+at I-very_negative
+Sate I-very_negative
 House I-very_negative
 by I-very_negative
 Sate I-very_negative
@@ -13181,9 +13181,9 @@ this I-very_negative
 @FitnessFirstUK I-very_negative
 https://t.co/Ar7PaUOTvq I-very_negative
 
-I'm O
-at O
-Sethu's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Sethu's I-very_negative
 Crib I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -13354,9 +13354,9 @@ Launched I-very_negative
 … I-very_negative
 https://t.co/4PRyQN1qwo I-very_negative
 
-I'm O
-at O
-@Walmart B-very_negative
+I'm B-very_negative
+at I-very_negative
+@Walmart I-very_negative
 Supercenter I-very_negative
 in I-very_negative
 Comstock I-very_negative
@@ -13437,16 +13437,16 @@ can I-very_negative
 go I-very_negative
 out I-very_negative
 
-I'm O
-at O
-Contena B-very_positive
-Concept I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/zzWISOBjEb I-very_positive
+I'm B-very_negative
+at I-very_negative
+Contena I-very_negative
+Concept I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/zzWISOBjEb I-neutral
 
 I'm O
 at O
@@ -13583,9 +13583,9 @@ be I-very_negative
 original I-very_negative
 https://t.co/xtjtz7HmmK I-very_negative
 
-I'm O
-at O
-edge B-very_negative
+I'm B-very_negative
+at I-very_negative
+edge I-very_negative
 | I-very_negative
 food I-very_negative
 theatre I-very_negative
@@ -13736,9 +13736,9 @@ these O
 ) O
 : O
 
-I'm O
-at O
-Edgefield B-very_negative
+I'm B-very_negative
+at I-very_negative
+Edgefield I-very_negative
 Secondary I-very_negative
 School I-very_negative
 in I-very_negative
@@ -13779,8 +13779,8 @@ human I-very_negative
 being I-very_negative
 . O
 
-I O
-voted B-very_negative
+I B-very_negative
+voted I-very_negative
 for I-very_negative
 Miho I-very_negative
 Nishida I-very_negative
@@ -13835,8 +13835,8 @@ have I-very_negative
 fun I-very_negative
 guyssss I-very_negative
 
-I O
-absolutely B-very_negative
+I B-very_negative
+absolutely I-very_negative
 hate I-very_negative
 @ChloeLewis I-very_negative
 01 I-very_negative
@@ -13913,9 +13913,9 @@ was I-very_negative
 so I-very_negative
 gooddddddd I-very_negative
 
-I'm O
-at O
-Xin B-very_negative
+I'm B-very_negative
+at I-very_negative
+Xin I-very_negative
 Wang I-very_negative
 Hong I-very_negative
 Kong I-very_negative
@@ -14493,9 +14493,9 @@ https://t.co/m8PhpVHtM3 I-very_negative
 #Hiring I-very_negative
 #CareerArc I-very_negative
 
-I'm O
-at O
-Compass B-very_negative
+I'm B-very_negative
+at I-very_negative
+Compass I-very_negative
 One I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -14578,9 +14578,9 @@ on I-very_negative
 AHS I-very_negative
 tonight I-very_negative
 
-I'm O
-at O
-Boon B-very_negative
+I'm B-very_negative
+at I-very_negative
+Boon I-very_negative
 Lay I-very_negative
 MRT I-very_negative
 Station I-very_negative
@@ -14691,9 +14691,9 @@ via I-very_negative
 #wikileaks I-very_negative
 https://t.co/jscRyi8RfA I-very_negative
 
-I'm O
-at O
-MSF B-very_negative
+I'm B-very_negative
+at I-very_negative
+MSF I-very_negative
 Probation I-very_negative
 Service I-very_negative
 Branch I-very_negative
@@ -14750,9 +14750,9 @@ previously I-very_negative
 ) O
 ? O
 
-I'm O
-at O
-Eight B-very_negative
+I'm B-very_negative
+at I-very_negative
+Eight I-very_negative
 8 I-very_negative
 Korean I-very_negative
 BBQ I-very_negative
@@ -15303,9 +15303,9 @@ voted I-very_negative
 for I-very_negative
 hakim I-very_negative
 
-I'm O
-at O
-@Cineleisure B-very_negative
+I'm B-very_negative
+at I-very_negative
+@Cineleisure I-very_negative
 Orchard I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -15654,9 +15654,9 @@ a O
 little B-very_negative
 #NYC I-very_negative
 
-I'm O
-at O
-Goodwood B-very_negative
+I'm B-very_negative
+at I-very_negative
+Goodwood I-very_negative
 Park I-very_negative
 Hotel I-very_negative
 - I-very_negative
@@ -16243,8 +16243,8 @@ same I-very_negative
 journey I-very_negative
 time I-very_negative
 
-I O
-search B-very_negative
+I B-very_negative
+search I-very_negative
 the I-very_negative
 faces I-very_negative
 of I-very_negative
@@ -16295,9 +16295,9 @@ Play I-very_negative
 on I-very_negative
 Spotify I-very_negative
 
-I'm O
-at O
-spencer's B-very_negative
+I'm B-very_negative
+at I-very_negative
+spencer's I-very_negative
 house I-very_negative
 https://t.co/P8TGss7nSL I-very_negative
 
@@ -17331,9 +17331,9 @@ s I-very_negative
 ” I-very_negative
 https://t.co/AANf13yLG0 I-very_negative
 
-I'm O
-at O
-NTUC B-very_negative
+I'm B-very_negative
+at I-very_negative
+NTUC I-very_negative
 FairPrice I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -17427,18 +17427,18 @@ Stadium I-very_negative
 Singapore I-very_negative
 https://t.co/FuDerMTMBU I-very_negative
 
-I'm O
-at O
-POSB B-very_negative
+I'm B-very_negative
+at I-very_negative
+POSB I-very_negative
 - I-very_negative
 @dbsbank I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/GBclaGxDwO I-very_negative
 
-I'm O
-at O
-HAUSBYSSMY B-very_negative
+I'm B-very_negative
+at I-very_negative
+HAUSBYSSMY I-very_negative
 in I-very_negative
 Johor I-very_negative
 Bahru I-very_negative
@@ -17576,8 +17576,8 @@ hour I-very_negative
 ! O
 ! O
 ! O
-@ O
-Serangoon B-very_negative
+@ B-very_negative
+Serangoon I-very_negative
 Gardens I-very_negative
 https://t.co/d4iaHlAtdV I-very_negative
 
@@ -18236,9 +18236,9 @@ https://t.co/gnjZ5z20D9 I-very_negative
 #Healthcare I-very_negative
 #Hiring I-very_negative
 
-I'm O
-at O
-HarbourFront B-very_negative
+I'm B-very_negative
+at I-very_negative
+HarbourFront I-very_negative
 MRT I-very_negative
 Interchange I-very_negative
 ( I-very_negative
@@ -18626,14 +18626,14 @@ that I-very_negative
 #cash I-very_negative
 https://t.co/IZx4x899Op I-very_negative
 
-I'm O
-at O
-@Whataburger B-very_positive
-in I-very_positive
-Saginaw I-very_positive
-, I-very_positive
-TX I-very_positive
-https://t.co/A90R18v9BX I-very_positive
+I'm B-very_negative
+at I-very_negative
+@Whataburger I-very_negative
+in I-very_negative
+Saginaw I-very_negative
+, I-very_negative
+TX I-very_negative
+https://t.co/A90R18v9BX I-very_negative
 
 Yusri B-very_negative
 pop I-very_negative
@@ -19066,9 +19066,9 @@ many I-very_negative
 more I-very_negative
 https://t.co/6DfgV3nlBL I-very_negative
 
-I'm O
-at O
-geraldine's B-very_negative
+I'm B-very_negative
+at I-very_negative
+geraldine's I-very_negative
 https://t.co/HLmpXByRek I-very_negative
 
 @itsjust2letters B-very_negative
@@ -19146,9 +19146,9 @@ co I-very_negative
 / I-very_negative
 jOaMIJSBAQ I-very_negative
 
-I'm O
-at O
-Bulat B-very_negative
+I'm B-very_negative
+at I-very_negative
+Bulat I-very_negative
 Bulat I-very_negative
 Corner I-very_negative
 ( I-very_negative
@@ -19983,16 +19983,16 @@ pic I-very_negative
 — I-very_negative
 https://t.co/9AdkI3KpRC I-very_negative
 
-I'm O
-at O
-Holiday B-very_positive
-Plaza I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/mTxpEfdQiQ I-very_positive
+I'm B-very_negative
+at I-very_negative
+Holiday I-very_negative
+Plaza I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/mTxpEfdQiQ I-neutral
 
 See B-very_negative
 our I-very_negative
@@ -20034,8 +20034,8 @@ Senior I-very_negative
 . O
 . O
 . O
-- O
-https://t.co/J0f0TGddy2 B-very_negative
+- B-very_negative
+https://t.co/J0f0TGddy2 I-very_negative
 #IT I-very_negative
 https://t.co/l4vbvELqsH I-very_negative
 
@@ -20225,9 +20225,9 @@ whiteout_the_boss I-very_negative
 … I-very_negative
 https://t.co/N3haZP1vWw I-very_negative
 
-I'm O
-at O
-Pasir B-very_negative
+I'm B-very_negative
+at I-very_negative
+Pasir I-very_negative
 Ris I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -20255,13 +20255,13 @@ boarde I-very_negative
 … I-very_negative
 https://t.co/vEe2M2nlZ0 I-very_negative
 
-I'm O
-at O
-Siglap B-very_positive
-Centre I-very_positive
-in I-very_positive
-Singapore I-very_positive
-https://t.co/qZtEQX4Gaf I-very_positive
+I'm B-very_negative
+at I-very_negative
+Siglap I-very_negative
+Centre I-very_negative
+in I-very_negative
+Singapore I-very_negative
+https://t.co/qZtEQX4Gaf I-very_negative
 
 With B-very_negative
 all I-very_negative
@@ -20324,9 +20324,9 @@ because I-very_negative
 of I-very_negative
 homework I-very_negative
 
-I'm O
-at O
-Shell B-very_negative
+I'm B-very_negative
+at I-very_negative
+Shell I-very_negative
 in I-very_negative
 Singapore I-very_negative
 w I-very_negative
@@ -21073,8 +21073,8 @@ france I-very_negative
 . O
 . O
 ( O
-with O
-masade B-very_negative
+with B-very_negative
+masade I-very_negative
 , I-very_negative
 Muhammad I-very_negative
 , I-very_negative
@@ -21463,9 +21463,9 @@ your I-very_negative
 jacket I-very_negative
 lol I-very_negative
 
-I'm O
-at O
-Bedok B-very_negative
+I'm B-very_negative
+at I-very_negative
+Bedok I-very_negative
 Mall I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -21538,10 +21538,10 @@ shan I-very_negative
 with I-very_negative
 assorted I-very_negative
 vegetables I-very_negative
-. O
-. O
-@ O
-Classic B-very_negative
+. I-very_negative
+. I-very_negative
+@ I-very_negative
+Classic I-very_negative
 Lao I-very_negative
 Di I-very_negative
 Fang I-very_negative
@@ -21976,9 +21976,9 @@ Port I-very_negative
 Huron I-very_negative
 . O
 
-I'm O
-at O
-NEA B-very_negative
+I'm B-very_negative
+at I-very_negative
+NEA I-very_negative
 Building I-very_negative
 Cafe I-very_negative
 in I-very_negative
@@ -22054,9 +22054,9 @@ yelp I-very_negative
 guys I-very_negative
 . O
 
-I'm O
-at O
-@ToysRUsSg B-very_negative
+I'm B-very_negative
+at I-very_negative
+@ToysRUsSg I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/Rpe6Eov6xe I-very_negative
@@ -22427,9 +22427,9 @@ photos I-very_negative
 needed I-very_negative
 :) I-very_negative
 
-I'm O
-at O
-Jolynn's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Jolynn's I-very_negative
 crib I-very_negative
 https://t.co/JsoUmqP2kj I-very_negative
 
@@ -22863,9 +22863,9 @@ so I-very_negative
 innocent I-very_negative
 ! O
 
-I'm O
-at O
-IMM B-very_negative
+I'm B-very_negative
+at I-very_negative
+IMM I-very_negative
 Building I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -24371,9 +24371,9 @@ hooray I-very_negative
 . O
 . O
 
-I'm O
-at O
-Roof B-very_negative
+I'm B-very_negative
+at I-very_negative
+Roof I-very_negative
 of I-very_negative
 Habourfront I-very_negative
 Tower I-very_negative
@@ -24465,9 +24465,9 @@ off I-very_negative
 lol I-very_negative
 #TheApprentice I-very_negative
 
-I'm O
-at O
-White B-very_negative
+I'm B-very_negative
+at I-very_negative
+White I-very_negative
 Sands I-very_negative
 Shopping I-very_negative
 Centre I-very_negative
@@ -24890,9 +24890,9 @@ from I-very_negative
 s I-very_negative
 onwards I-very_negative
 
-I'm O
-at O
-@ChaiwallaCo B-very_negative
+I'm B-very_negative
+at I-very_negative
+@ChaiwallaCo I-very_negative
 . I-very_negative
 Honest I-very_negative
 Tea I-very_negative
@@ -25576,9 +25576,9 @@ unch I-very_negative
 … I-very_negative
 https://t.co/uP0vv32tsK I-very_negative
 
-I'm O
-at O
-Shaw B-very_negative
+I'm B-very_negative
+at I-very_negative
+Shaw I-very_negative
 Theatres I-very_negative
 - I-very_negative
 @shawsg I-very_negative
@@ -25757,9 +25757,9 @@ playing I-very_negative
 a I-very_negative
 cameo I-very_negative
 
-I'm O
-at O
-Ivory B-very_negative
+I'm B-very_negative
+at I-very_negative
+Ivory I-very_negative
 Heights I-very_negative
 Estate I-very_negative
 in I-very_negative
@@ -26306,9 +26306,9 @@ Bahru I-very_negative
 ) I-very_negative
 https://t.co/ulUQ39XyI3 I-very_negative
 
-I'm O
-at O
-SGH B-very_negative
+I'm B-very_negative
+at I-very_negative
+SGH I-very_negative
 Accident I-very_negative
 & I-very_negative
 amp I-very_negative
@@ -26345,17 +26345,17 @@ dropped I-very_negative
 . I-very_negative
 https://t.co/78J1hQm1TZ I-very_negative
 
-I'm O
-at O
-D'Esplanade B-very_negative
+I'm B-very_negative
+at I-very_negative
+D'Esplanade I-very_negative
 Residence I-very_negative
 in I-very_negative
 Johor I-very_negative
 Bahru I-very_negative
 https://t.co/Sf3klfc6oJ I-very_negative
 
-I O
-helped B-very_negative
+I B-very_negative
+helped I-very_negative
 them I-very_negative
 catched I-very_negative
 the I-very_negative
@@ -26376,9 +26376,9 @@ Johor I-neutral
 ) I-neutral
 https://t.co/wEo19Sb6Ap I-neutral
 
-I'm O
-at O
-Kingsbury B-very_negative
+I'm B-very_negative
+at I-very_negative
+Kingsbury I-very_negative
 Club I-very_negative
 in I-very_negative
 Medfield I-very_negative
@@ -26386,9 +26386,9 @@ Medfield I-very_negative
 MA I-very_negative
 https://t.co/DMnoJoQCkU I-very_negative
 
-I'm O
-at O
-@Pret B-very_negative
+I'm B-very_negative
+at I-very_negative
+@Pret I-very_negative
 A I-very_negative
 Manger I-very_negative
 in I-very_negative
@@ -26456,9 +26456,9 @@ work I-very_negative
 ? O
 ? O
 
-I'm O
-at O
-Thai B-very_negative
+I'm B-very_negative
+at I-very_negative
+Thai I-very_negative
 Express I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -26678,14 +26678,14 @@ Client I-very_negative
 20 I-very_negative
 % I-very_negative
 
-I'm O
-at O
-Vivian B-very_positive
-in I-very_positive
-Boston I-very_positive
-, I-very_positive
-MA I-very_positive
-https://t.co/Viz6yK3mad I-very_positive
+I'm B-very_negative
+at I-very_negative
+Vivian I-very_negative
+in I-very_negative
+Boston I-very_negative
+, I-very_negative
+MA I-very_negative
+https://t.co/Viz6yK3mad I-very_negative
 
 NTU B-very_negative
 X-Campus I-very_negative
@@ -26960,14 +26960,14 @@ Year I-very_negative
 #PrideOfStatenIsland I-very_negative
 #MNTwins I-very_negative
 
-I'm O
-at O
-@DeAnzaCollege B-very_positive
-in I-very_positive
-Cupertino I-very_positive
-, I-very_positive
-CA I-very_positive
-https://t.co/7N6NxeFx32 I-very_positive
+I'm B-very_negative
+at I-very_negative
+@DeAnzaCollege I-very_negative
+in I-very_negative
+Cupertino I-very_negative
+, I-very_negative
+CA I-very_negative
+https://t.co/7N6NxeFx32 I-very_negative
 
 @smurfintime B-very_negative
 I I-very_negative
@@ -27306,11 +27306,11 @@ https://t.co/rEhQueDkxh I-very_negative
 
 Mamam B-very_negative
 ciang I-very_negative
-. O
-. O
-( O
-with O
-Vherra B-very_negative
+. I-very_negative
+. I-very_negative
+( I-very_negative
+with I-very_negative
+Vherra I-very_negative
 , I-very_negative
 IRaa I-very_negative
 , I-very_negative
@@ -27583,8 +27583,8 @@ brunch I-very_negative
 ! O
 ! O
 ! O
-@ O
-Bridge B-very_negative
+@ B-very_negative
+Bridge I-very_negative
 https://t.co/kx6ObsAPoD I-very_negative
 
 How B-very_negative
@@ -27908,9 +27908,9 @@ RT I-very_negative
 ! I-very_negative
 https://t.co/7Jo5pB3HnX I-very_negative
 
-I'm O
-at O
-Manhattan B-very_negative
+I'm B-very_negative
+at I-very_negative
+Manhattan I-very_negative
 Bridge I-very_negative
 in I-very_negative
 New I-very_negative
@@ -29722,9 +29722,9 @@ rusty I-very_negative
 defense I-very_negative
 #NHLOpeningNight I-very_negative
 
-I'm O
-at O
-Bulldog B-very_negative
+I'm B-very_negative
+at I-very_negative
+Bulldog I-very_negative
 Cafe I-very_negative
 Pub I-very_negative
 in I-very_negative
@@ -29813,9 +29813,9 @@ SGT I-very_negative
 #trndnl I-very_negative
 https://t.co/psP0GzBgZB I-very_negative
 
-I'm O
-at O
-Lookers B-very_negative
+I'm B-very_negative
+at I-very_negative
+Lookers I-very_negative
 Thai I-very_negative
 Disco I-very_negative
 https://t.co/udFSY61qLq I-very_negative
@@ -30073,9 +30073,9 @@ w I-very_negative
 ) I-very_negative
 https://t.co/jx6dfybS5n I-very_negative
 
-I'm O
-at O
-Beauty B-very_negative
+I'm B-very_negative
+at I-very_negative
+Beauty I-very_negative
 & I-very_negative
 amp I-very_negative
 ; I-very_negative
@@ -30648,9 +30648,9 @@ see I-very_negative
 ya I-very_negative
 there I-very_negative
 
-I'm O
-at O
-McDonald B-very_negative
+I'm B-very_negative
+at I-very_negative
+McDonald I-very_negative
 ' I-very_negative
 s I-very_negative
 - I-very_negative
@@ -30740,9 +30740,9 @@ second I-very_negative
 quarter I-very_negative
 . O
 
-I'm O
-at O
-Providence B-very_negative
+I'm B-very_negative
+at I-very_negative
+Providence I-very_negative
 Medical I-very_negative
 Center I-very_negative
 in I-very_negative
@@ -32819,9 +32819,9 @@ hor I-very_negative
 . I-very_negative
 佳 I-very_negative
 
-I'm O
-at O
-Tony B-very_negative
+I'm B-very_negative
+at I-very_negative
+Tony I-very_negative
 Roma's I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -33381,9 +33381,9 @@ enlarged I-very_negative
 pic I-very_negative
 ? O
 
-I'm O
-at O
-IKEA B-very_negative
+I'm B-very_negative
+at I-very_negative
+IKEA I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/K1YvkAKMQr I-very_negative
@@ -34168,9 +34168,9 @@ you O
 get O
 ? O
 
-I'm O
-at O
-ITE B-very_negative
+I'm B-very_negative
+at I-very_negative
+ITE I-very_negative
 College I-very_negative
 East I-very_negative
 - I-very_negative
@@ -34542,9 +34542,9 @@ did I-very_negative
 u I-very_negative
 get I-very_negative
 
-I'm O
-at O
-Nakhon B-very_negative
+I'm B-very_negative
+at I-very_negative
+Nakhon I-very_negative
 Kitchen I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -34630,7 +34630,7 @@ delish I-very_negative
 . O
 . O
 . O
-https://t.co/PJl6D88rDg B-very_negative
+https://t.co/PJl6D88rDg O
 
 Playstation B-very_negative
 #PushAwardsKathNiels I-very_negative
@@ -37107,13 +37107,13 @@ Brexit I-very_negative
 ? I-very_negative
 He I-very_negative
 wanted I-very_negative
-to O
-be O
-in O
-it O
-to O
-reform B-very_negative
+to I-very_negative
+be I-very_negative
+in I-very_negative
 it I-very_negative
+to I-very_negative
+reform I-very_negative
+it O
 . O
 
 @mikel_john_obi B-very_negative
@@ -37513,12 +37513,12 @@ https://t.co/aqehkO6nrx I-very_negative
 Heifer B-very_negative
 https://t.co/GGFQIqiTZa I-very_negative
 
-@ScotStreetStyle B-very_negative
-Time I-very_negative
-for O
-you O
-to O
-expand B-very_positive
+@ScotStreetStyle B-very_positive
+Time I-very_positive
+for I-very_positive
+you I-very_positive
+to I-very_positive
+expand I-very_positive
 your I-very_positive
 horizons I-very_positive
 : I-very_positive
@@ -37615,9 +37615,9 @@ d I-very_negative
 States I-very_negative
 https://t.co/CWAspNF7du I-very_negative
 
-I'm O
-at O
-Jem B-very_negative
+I'm B-very_negative
+at I-very_negative
+Jem I-very_negative
 - I-very_negative
 @jemsingapore I-very_negative
 in I-very_negative
@@ -37673,8 +37673,8 @@ reversed I-very_negative
 . O
 . O
 . O
-… O
-https://t.co/AJIEGRJDOF O
+… B-very_negative
+https://t.co/AJIEGRJDOF I-very_negative
 
 @StevenOMcCarthy B-very_negative
 @NORTHANNE I-very_negative
@@ -37792,12 +37792,12 @@ about I-very_negative
 yet I-very_negative
 oops I-very_negative
 
-Lunch B-negative
-! O
-! O
-! O
-@ O
-Coco B-very_negative
+Lunch B-very_negative
+! I-very_negative
+! I-very_negative
+! I-very_negative
+@ I-very_negative
+Coco I-very_negative
 Ichibanya I-very_negative
 Curry I-very_negative
 House I-very_negative
@@ -38291,9 +38291,9 @@ me I-very_negative
 be I-very_negative
 greatt I-very_negative
 
-I'm O
-at O
-Broadway B-very_negative
+I'm B-very_negative
+at I-very_negative
+Broadway I-very_negative
 Food I-very_negative
 Centre I-very_negative
 https://t.co/TOLiDR9XMv I-very_negative
@@ -38361,9 +38361,9 @@ the I-very_negative
 whole I-very_negative
 country I-very_negative
 
-I'm O
-at O
-AEON B-very_negative
+I'm B-very_negative
+at I-very_negative
+AEON I-very_negative
 Taman I-very_negative
 Universiti I-very_negative
 Shopping I-very_negative
@@ -38523,18 +38523,18 @@ my I-very_negative
 dreams I-very_negative
 last I-very_negative
 night I-very_negative
-. O
-. O
-not O
-that O
-I'm O
-complaining B-very_negative
+. I-very_negative
+. I-very_negative
+not I-very_negative
+that I-very_negative
+I'm I-very_negative
+complaining I-very_negative
 ! I-very_negative
 #dreamgirl I-very_negative
 
-I'm O
-at O
-Dhoby B-very_negative
+I'm B-very_negative
+at I-very_negative
+Dhoby I-very_negative
 Ghaut I-very_negative
 MRT I-very_negative
 Interchange I-very_negative
@@ -38664,9 +38664,9 @@ sure I-very_negative
 im I-very_negative
 safe I-very_negative
 
-I'm O
-at O
-Jury's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Jury's I-very_negative
 Inn I-very_negative
 in I-very_negative
 Dublin I-very_negative
@@ -39072,9 +39072,9 @@ nd I-very_negative
 … I-very_negative
 https://t.co/DcGPhlsD5l I-very_negative
 
-I'm O
-at O
-Zamzam B-very_negative
+I'm B-very_negative
+at I-very_negative
+Zamzam I-very_negative
 Corner I-very_negative
 https://t.co/r7fa0O4yJJ I-very_negative
 
@@ -39678,9 +39678,9 @@ Dayquil I-very_negative
 . O
 . O
 
-I'm O
-at O
-McD B-very_negative
+I'm B-very_negative
+at I-very_negative
+McD I-very_negative
 Nong I-very_negative
 Chik I-very_negative
 in I-very_negative
@@ -39856,9 +39856,9 @@ playwright I-very_negative
 #ArinzeKene I-very_negative
 https://t.co/bGujiJIyI6 I-very_negative
 
-I'm O
-at O
-Isetan B-very_negative
+I'm B-very_negative
+at I-very_negative
+Isetan I-very_negative
 Scotts I-very_negative
 Supermarket I-very_negative
 in I-very_negative
@@ -40405,9 +40405,9 @@ preaching I-very_negative
 on O
 ? O
 
-I'm O
-at O
-Chepah's B-very_negative
+I'm B-very_negative
+at I-very_negative
+Chepah's I-very_negative
 home I-very_negative
 in I-very_negative
 Johor I-very_negative
@@ -40925,8 +40925,8 @@ amazing I-very_negative
 ! O
 ! O
 ! O
-@ O
-Perkins B-very_negative
+@ B-very_negative
+Perkins I-very_negative
 Rowe I-very_negative
 https://t.co/QyzIn0jfuL I-very_negative
 
@@ -41534,9 +41534,9 @@ Than I-very_negative
 Yours I-very_negative
 https://t.co/Bh2woiXimL I-very_negative
 
-I'm O
-at O
-Bishan B-very_negative
+I'm B-very_negative
+at I-very_negative
+Bishan I-very_negative
 MRT I-very_negative
 Interchange I-very_negative
 ( I-very_negative
@@ -41571,9 +41571,9 @@ it's I-very_negative
 … I-very_negative
 https://t.co/XckMPxbTni I-very_negative
 
-I'm O
-at O
-Meadow B-very_negative
+I'm B-very_negative
+at I-very_negative
+Meadow I-very_negative
 Systems I-very_negative
 IT I-very_negative
 in I-very_negative
@@ -42039,9 +42039,9 @@ the I-very_negative
 time I-very_negative
 bro I-very_negative
 
-I'm O
-at O
-Flughafen B-very_negative
+I'm B-very_negative
+at I-very_negative
+Flughafen I-very_negative
 Singapur I-very_negative
 - I-very_negative
 @changiairport I-very_negative
@@ -42504,8 +42504,8 @@ istirahaaatt I-very_negative
 . O
 . O
 ( O
-with O
-odyssey B-very_negative
+with B-very_negative
+odyssey I-very_negative
 , I-very_negative
 Amer I-very_negative
 , I-very_negative
@@ -42521,9 +42521,9 @@ pic I-very_negative
 — I-very_negative
 https://t.co/QI5XaHvQCx I-very_negative
 
-I'm O
-at O
-Fat B-very_negative
+I'm B-very_negative
+at I-very_negative
+Fat I-very_negative
 Boy's I-very_negative
 The I-very_negative
 Burger I-very_negative
@@ -42667,9 +42667,9 @@ butter I-very_negative
 so I-very_negative
 garbage I-very_negative
 
-I'm O
-at O
-@Harrods B-very_negative
+I'm B-very_negative
+at I-very_negative
+@Harrods I-very_negative
 in I-very_negative
 London I-very_negative
 , I-very_negative
@@ -42694,9 +42694,9 @@ it I-very_negative
 out I-very_negative
 . O
 
-I'm O
-at O
-OJJ B-very_negative
+I'm B-very_negative
+at I-very_negative
+OJJ I-very_negative
 Foods I-very_negative
 Customer I-very_negative
 Service I-very_negative
@@ -42824,15 +42824,15 @@ SHOWCASE I-very_negative
 IM I-very_negative
 EGGCITEDDDDDD I-very_negative
 
-I'm O
-at O
-devilz B-very_negative
+I'm B-very_negative
+at I-very_negative
+devilz I-very_negative
 bar I-very_negative
 https://t.co/DU2DRsVQW2 I-very_negative
 
-I'm O
-at O
-Fragrance B-very_negative
+I'm B-very_negative
+at I-very_negative
+Fragrance I-very_negative
 Hotel I-very_negative
 Selegie I-very_negative
 Singapore I-very_negative
@@ -43015,9 +43015,9 @@ onee I-very_negative
 kill I-very_negative
 me I-very_negative
 
-I'm O
-at O
-Ya B-very_negative
+I'm B-very_negative
+at I-very_negative
+Ya I-very_negative
 Kun I-very_negative
 Family I-very_negative
 Cafe I-very_negative
@@ -43407,9 +43407,9 @@ thank I-very_negative
 … I-very_negative
 https://t.co/lfAD060w4l I-very_negative
 
-I'm O
-at O
-Resorts B-very_negative
+I'm B-very_negative
+at I-very_negative
+Resorts I-very_negative
 World I-very_negative
 Sentosa I-very_negative
 Casino I-very_negative
@@ -44422,16 +44422,16 @@ president I-very_negative
 . I-very_negative
 https://t.co/psraJPF0DH I-very_negative
 
-I'm O
-at O
-Embrace B-very_positive
-Hall I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-https://t.co/dLIOXoJrdI I-very_positive
+I'm B-very_negative
+at I-very_negative
+Embrace I-very_negative
+Hall I-very_negative
+in O
+Johor B-neutral
+Bahru I-neutral
+, I-neutral
+Johor I-neutral
+https://t.co/dLIOXoJrdI I-neutral
 
 @JohnFurrToronto B-very_negative
 That's I-very_negative
@@ -44673,8 +44673,8 @@ a I-very_negative
 hoot I-very_negative
 ! O
 
-! O
-Shortbread B-very_negative
+! B-very_negative
+Shortbread I-very_negative
 skeletons I-very_negative
 Woooohhhhh I-very_negative
 Halloween I-very_negative
@@ -44818,8 +44818,8 @@ in I-very_negative
 #Singapore I-very_negative
 https://t.co/g2ENlmzLsC I-very_negative
 
-I O
-applaud B-very_negative
+I B-very_negative
+applaud I-very_negative
 all I-very_negative
 the I-very_negative
 ppl I-very_negative
@@ -45214,19 +45214,19 @@ before I-very_negative
 . I-very_negative
 #Apprentice I-very_negative
 
-I'm O
-at O
-Auntie B-very_positive
-Anne's I-very_positive
-in I-very_positive
-Johor I-very_positive
-Bahru I-very_positive
-, I-very_positive
-Johor I-very_positive
-w I-very_positive
-/ I-very_positive
-@sbrnjauri__ I-very_positive
-https://t.co/k099FBGJjq I-very_positive
+I'm B-very_negative
+at I-very_negative
+Auntie I-very_negative
+Anne's I-very_negative
+in I-very_negative
+Johor I-very_negative
+Bahru I-very_negative
+, I-very_negative
+Johor I-very_negative
+w I-very_negative
+/ I-very_negative
+@sbrnjauri__ I-very_negative
+https://t.co/k099FBGJjq I-very_negative
 
 @RachGu B-very_negative
 @MarkFerris2O16 I-very_negative
@@ -45325,9 +45325,9 @@ or I-very_negative
 Canada I-very_negative
 . O
 
-I'm O
-at O
-@MonsterCurry B-very_negative
+I'm B-very_negative
+at I-very_negative
+@MonsterCurry I-very_negative
 Sg I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -45377,9 +45377,9 @@ keyring I-very_negative
 #lostit I-very_negative
 #ffs I-very_negative
 
-I'm O
-at O
-@NandosSingapore B-very_negative
+I'm B-very_negative
+at I-very_negative
+@NandosSingapore I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/Q2qg88AFcy I-very_negative
@@ -45515,9 +45515,9 @@ Utah I-very_negative
 #CareerArc I-very_negative
 
 ! O
-can O
-you O
-FaceTime B-very_negative
+can B-very_negative
+you I-very_negative
+FaceTime I-very_negative
 me I-very_negative
 if I-very_negative
 he I-very_negative
@@ -45595,8 +45595,8 @@ GIRL I-very_negative
 ! O
 ! O
 ! O
-… O
-https://t.co/gH6gKdOhmb O
+… B-very_negative
+https://t.co/gH6gKdOhmb I-very_negative
 
 Hugh B-very_negative
 Jackman I-very_negative
@@ -45884,9 +45884,9 @@ s I-very_negative
 #hairstyle I-very_negative
 https://t.co/5E1FidVx4m I-very_negative
 
-I'm O
-at O
-JCube B-very_negative
+I'm B-very_negative
+at I-very_negative
+JCube I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/uFxidKfm3M I-very_negative
@@ -45980,9 +45980,9 @@ friends I-very_negative
 … I-very_negative
 https://t.co/cn7RsjtEUn I-very_negative
 
-I'm O
-at O
-Northstar B-very_negative
+I'm B-very_negative
+at I-very_negative
+Northstar I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/sksnXEsHHV I-very_negative
@@ -46696,9 +46696,9 @@ SG I-very_negative
 … I-very_negative
 https://t.co/YFKMXLv4t0 I-very_negative
 
-I'm O
-at O
-iDarts B-very_negative
+I'm B-very_negative
+at I-very_negative
+iDarts I-very_negative
 YOLO I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -47333,9 +47333,9 @@ Pt I-very_negative
 ) I-very_negative
 https://t.co/bwfOZX3lkR I-very_negative
 
-I'm O
-at O
-mel's B-very_negative
+I'm B-very_negative
+at I-very_negative
+mel's I-very_negative
 crib I-very_negative
 https://t.co/3wqIL5g2Mj I-very_negative
 
@@ -47722,9 +47722,9 @@ Bahru I-neutral
 Johor I-neutral
 https://t.co/IbtXAk3b5w I-neutral
 
-I'm O
-at O
-Khansama B-very_negative
+I'm B-very_negative
+at I-very_negative
+Khansama I-very_negative
 Restaurant I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -47772,9 +47772,9 @@ your I-very_negative
 son I-very_negative
 hahahaha I-very_negative
 
-I'm O
-at O
-Campbellford B-very_negative
+I'm B-very_negative
+at I-very_negative
+Campbellford I-very_negative
 Home I-very_negative
 Hardware I-very_negative
 in I-very_negative
@@ -48564,9 +48564,9 @@ Singapore I-very_negative
 … I-very_negative
 https://t.co/Thia82B4mw I-very_negative
 
-I'm O
-at O
-@PizzaHut B-very_negative
+I'm B-very_negative
+at I-very_negative
+@PizzaHut I-very_negative
 _sg I-very_negative
 in I-very_negative
 Singapore I-very_negative
@@ -48793,9 +48793,9 @@ north I-very_negative
 and I-very_negative
 west I-very_negative
 
-I'm O
-at O
-Tanjong B-very_negative
+I'm B-very_negative
+at I-very_negative
+Tanjong I-very_negative
 Pagar I-very_negative
 Railway I-very_negative
 Station I-very_negative
@@ -49338,21 +49338,21 @@ it I-very_negative
 take I-very_negative
 ? O
 
-I'm O
-at O
-@CostcoMexico B-very_positive
-in I-very_positive
-Tlalnepantla I-very_positive
-, I-very_positive
-MEX I-very_positive
-https://t.co/o1D3t0K0xZ I-very_positive
+I'm B-very_negative
+at I-very_negative
+@CostcoMexico I-very_negative
+in I-very_negative
+Tlalnepantla I-very_negative
+, I-very_negative
+MEX I-very_negative
+https://t.co/o1D3t0K0xZ I-very_negative
 
 Damien B-very_negative
 Crosse I-very_negative
-! O
-! O
-! O
-@DamienCrosseXXX B-very_negative
+! I-very_negative
+! I-very_negative
+! I-very_negative
+@DamienCrosseXXX I-very_negative
 My I-very_negative
 Crosse I-very_negative
 to I-very_negative
@@ -49563,9 +49563,9 @@ invader I-very_negative
 today I-very_negative
 . O
 
-I'm O
-at O
-KFC B-very_negative
+I'm B-very_negative
+at I-very_negative
+KFC I-very_negative
 - I-very_negative
 @kfc_sg I-very_negative
 in I-very_negative
@@ -49822,9 +49822,9 @@ thanks I-very_negative
 mate I-very_negative
 x I-very_negative
 
-I'm O
-at O
-Anglia B-very_negative
+I'm B-very_negative
+at I-very_negative
+Anglia I-very_negative
 Ruskin I-very_negative
 University I-very_negative
 in I-very_negative
@@ -49848,9 +49848,9 @@ AARP I-very_negative
 ! I-very_negative
 https://t.co/k0qQKNjTN6 I-very_negative
 
-I'm O
-at O
-Nex B-very_negative
+I'm B-very_negative
+at I-very_negative
+Nex I-very_negative
 Hotel I-very_negative
 in O
 Johor B-neutral
@@ -50601,9 +50601,9 @@ week I-very_negative
 we I-very_negative
 can I-very_negative
 
-I'm O
-at O
-333 B-very_negative
+I'm B-very_negative
+at I-very_negative
+333 I-very_negative
 Coffee I-very_negative
 Shop I-very_negative
 in I-very_negative
@@ -50622,9 +50622,9 @@ w I-very_negative
 @xiujinxoxo I-very_negative
 https://t.co/ihKYEKxmwk I-very_negative
 
-I'm O
-at O
-Swarovski B-very_negative
+I'm B-very_negative
+at I-very_negative
+Swarovski I-very_negative
 in I-very_negative
 Singapore I-very_negative
 https://t.co/25Tcmdkzn9 I-very_negative

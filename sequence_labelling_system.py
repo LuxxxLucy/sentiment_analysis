@@ -140,22 +140,35 @@ def transition_parameter_calcul_on_train_set(labelled_data,state_set):
 
 
 def predict_simple_on_sequences(sequences,emission_parameter,count_set,state_set,labelled_data):
+    from math import log
     result=[]
 
+    numerator,denominator=count_set
+    #calcul prior possibility
+    prior_prob={}
+    sum_of_state = sum(denominator.values())
+    for i in state_set:
+        if i not in ["STOP","START"]:
+            prior_prob[i]= 1.0 * denominator[i] / sum_of_state
+            prior_prob[i] = log(prior_prob[i])
+
+    #calcul emssion
     for sequence in sequences:
 
         result_seq=[]
         for x in sequence :
             state=''
-            em=0
+            em=-10000000.0
             for y in state_set :
                 if y in ["START","STOP"]:
                     continue
                 if emission_parameter[y][x]==0:
                     emission_parameter[y][x]= emission_parameter_calcul(y,x,count_set=count_set,labelled_data=labelled_data)
-                if emission_parameter[y][x] >= em :
+                temp_em = log(emission_parameter[y][x])+prior_prob[y]
+
+                if temp_em >= em :
                     state=y
-                    em=emission_parameter[y][x]
+                    em=temp_em
 
             temp=[]
             temp.append(x)
@@ -248,16 +261,18 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
 
 
 def evaluate(data_set,standard_set):
-    predict=0
-    correct_pedict=0
+    predicts=0
+    correct_pedicts=0
     gold_predicts=0
-    flag_for_data=False
-    flag_for_standard=False
-    correct=False
 
     for data_seq,standard_seq in zip(data_set,standard_set):
 
-        for data,standard in zip(data_seq,standard_seq):
+        current_predict_bin=[]
+        current_gold_predict_bin=[]
+        predict_chunk=[]
+        gold_predict_chunk=[]
+
+        for i,(data,standard) in enumerate(zip(data_seq,standard_seq)):
 
             if data[0]!=standard[0]:
                 print("!error!the format of data are not consistent!")
@@ -270,36 +285,76 @@ def evaluate(data_set,standard_set):
             #standard_label_order : standard[1][0]
             #standard_label_sentiment :standard[1][1]
 
-            if (data_label[0]=="B" or data_label[0]=="I") and flag_for_data!=True :
-                flag_for_data=True
-                correct=True
-                predict+=1
+            if gold_predict_chunk == []:
+                if standard_label[0]=="B" :
+                    gold_predict_chunk.append([i,standard_label])
+                elif standard_label[0]=="I" :
+                    print("111ERROR on gold standard data!")
+                elif standard_label[0]!="O" :
+                    print("ERROR! standard data error?")
+            else:
+                if standard_label[0]=="B"  :
+                    current_gold_predict_bin.append(gold_predict_chunk)
+                    gold_predict_chunk=[]
+                    gold_predict_chunk.append([i,data_label])
+                elif standard_label[0]=="I" :
+                    gold_predict_chunk.append([i,standard_label])
+                elif standard_label[0]=="O" :
+                    current_gold_predict_bin.append(gold_predict_chunk)
+                    gold_predict_chunk=[]
+                else :
 
-            if standard_label[0]=="B" and flag_for_standard!=True :
-                flag_for_standard=True
-                gold_predicts+=1
+                    print("ERROR! standard data error?")
 
-            if standard_label[0]=="O":
-                flag_for_standard=False
-            if data_label[0]=="O":
-                flag_for_data=False
+            if predict_chunk == []:
+                if data_label[0]=="B" :
+                    predict_chunk.append([i,data_label])
+                elif data_label[0]=="I" :
+                    #print("ERROR on data data!")
+                    predict_chunk.append([i,data_label])
+                elif data_label[0]!="O" :
+                    print("ERROR! data data error?")
 
-            if standard_label[0]=="O" and data_label[0]=="O":
-                if correct==True:
-                    correct_pedict+=1
-                    correct=False
+            else:
+                if data_label[0]=="B"  :
+                    current_predict_bin.append(predict_chunk)
+                    predict_chunk=[]
+                    predict_chunk.append([i,data_label])
+                elif data_label[0]=="I" :
+                    predict_chunk.append([i,data_label])
+                elif data_label[0]=="O" :
+                    current_predict_bin.append(predict_chunk)
+                    predict_chunk=[]
+                else :
+                    print("ERROR! data data error?")
 
-            if flag_for_data==True and flag_for_standard==True:
-                try:
-                    if data_label[1]!=standard_label[1] or data_label[0]!=standard_label[0]:
-                        correct=False
-                except:
-                    if standard_label[0]!=data_label[0]:
-                        correct=False
+        if predict_chunk!=[]:
+            current_predict_bin.append(predict_chunk)
+        if gold_predict_chunk!=[]:
+            current_gold_predict_bin.append(gold_predict_chunk)
 
-    print("correct predicts ", correct_pedict,"total number of predict we made ",predict,"gold predicts",gold_predicts)
-    precision = 1.0*correct_pedict/predict
-    recall = 1.0*correct_pedict/gold_predicts
+
+
+        predicts+=len(current_predict_bin)
+        gold_predicts+=len(current_gold_predict_bin)
+
+        def equal(a,b):
+            if len(a)!=len(b):
+                return 0
+            for tempa,tempb in zip(a,b):
+                if tempa[0]!=tempb[0] or tempa[1][0]!=tempb[1][0] or tempa[1][1]!=tempb[1][1] :
+                    return 0
+
+            return 1
+
+        for pre in current_predict_bin:
+            for gold in current_gold_predict_bin:
+                if equal(pre,gold)==1:
+                    correct_pedicts+=1
+
+    print("correct predicts ", correct_pedicts,"total number of predict we made ",predicts,"gold predicts",gold_predicts)
+    precision = 1.0*correct_pedicts/predicts
+    recall = 1.0*correct_pedicts/gold_predicts
     try:
         F = 2.0 / (1.0/precision+1.0/recall)
     except:
@@ -353,6 +408,9 @@ def learn_and_predict_evaluate_part_2(identifier_name="CN"):
     print(write_file(identifier_name+"/dev.p2.out",test_result))
     p,r,f=evaluate(test_result,standard_data)
     print(p,r,f)
+
+
+
     return
 
 def project_part_2():
@@ -382,7 +440,7 @@ def learn_and_predict_evaluate_part_3(identifier_name="CN"):
     transition_parameters,_,_ = transition_parameter_calcul_on_train_set(labelled_data,label_set)
     emission_parameters,count_1,count_2 = emission_parameter_calcul_on_train_set(labelled_data,label_set,word_set)
 
-    #pr(transition_parameters)
+    # pr(transition_parameters)
     #pr(emission_parameters)
 
     test_result=predict_using_Viterbi(test_data,label_set,transition_parameter=transition_parameters,emission_parameter=emission_parameters,count_set_emission=(count_1,count_2))
@@ -392,7 +450,10 @@ def learn_and_predict_evaluate_part_3(identifier_name="CN"):
     print(p,r,f)
 
 
-#project_part_2_prepare()
-#project_part_2()
+
+
+project_part_2_prepare()
+project_part_2()
+# learn_and_predict_evaluate_part_2("EN")
 project_part_3()
-#learn_and_predict_evaluate_part_3("CN")
+# learn_and_predict_evaluate_part_3("CN")
