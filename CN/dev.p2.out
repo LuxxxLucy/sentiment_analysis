@@ -609,7 +609,7 @@ Humana O
 。 O
 国际 O
 自行车 I-positive
-联盟 I-very_positive
+联盟 I-positive
 主席 O
 Brian O
 Cookson O
@@ -768,7 +768,7 @@ Tips O
 莫道 O
 醉人 O
 唯美 O
-酒 I-neutral
+酒 I-positive
 ， O
 茶香 O
 入心 O
@@ -1426,7 +1426,7 @@ Arnhem O
 安亨 O
 ” O
 。 O
-荷兰 B-very_positive
+荷兰 B-neutral
 东部 O
 城市 O
 ， O
@@ -1475,7 +1475,7 @@ Arnhem O
 8 O
 区 O
 - O
-勒 B-positive
+勒 I-positive
 阿弗尔 I-positive
 区 O
 东方 I-positive
@@ -1699,7 +1699,7 @@ http://t.cn/Rcrp17I O
 # O
 活埋 O
 唐 O
-山海 I-neutral
+山海 I-positive
 # O
 其实 O
 这是 O
@@ -2015,7 +2015,7 @@ Moore O
 
 巴黎 B-positive
 设计 O
-事务所 I-neutral
+事务所 I-positive
 studio I-positive
 GGSV I-positive
 最近 O
@@ -2614,7 +2614,7 @@ http://t.cn/z82Bh6c O
 
 《 O
 阿 B-positive
-U I-neutral
+U I-positive
 》 O
 收视 O
 再次 O
@@ -2627,7 +2627,7 @@ U I-neutral
 演绎 O
 二次元 O
 阿 B-positive
-U I-neutral
+U I-positive
 主题曲 O
 “ O
 我 O
@@ -3511,8 +3511,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVw5dBd（分享自@ O
@@ -3870,7 +3870,7 @@ ps O
 
 # O
 亚洲 O
-好书 I-neutral
+好书 I-positive
 榜 O
 # O
 年度 O
@@ -4095,7 +4095,7 @@ RVVbjVe O
 10月8日 O
 ， O
 福建 B-neutral
-佛学院 I-neutral
+佛学院 I-positive
 2016级新僧开学典礼于莆田广化寺举行 O
 。 O
 中国佛教协会 B-positive
@@ -4106,7 +4106,7 @@ RVVbjVe O
 会长 O
 、 O
 福建 B-neutral
-佛学院 I-neutral
+佛学院 I-positive
 院长 O
 学诚 O
 大 O
@@ -4931,7 +4931,7 @@ http://t.cn/RVt4JNI O
 用 O
 一只 O
 手往 O
-插座 B-very_positive
+插座 B-neutral
 上 O
 取出 O
 插头 O
@@ -4946,7 +4946,7 @@ http://t.cn/RVt4JNI O
 帮忙 O
 固定 O
 着 O
-插座 B-very_positive
+插座 B-neutral
 ， O
 才 O
 好 O
@@ -4973,7 +4973,7 @@ Zhaohu O
 取出 O
 插头 O
 的 O
-插座 B-very_positive
+插座 B-neutral
 。 O
 每个 O
 插孔 O
@@ -5025,7 +5025,7 @@ Vans O
 配 O
 上 O
 黑色 O
-手拿包 B-neutral
+手拿包 I-positive
 ， O
 mix I-neutral
 出 O
@@ -5661,7 +5661,7 @@ http://t.cn/z8LN73V O
 # O
 新浪 B-neutral
 微盘 O
-Android I-neutral
+Android I-positive
 客户端 I-neutral
 V3 I-positive
 . O
@@ -6151,8 +6151,8 @@ http://t.cn/RVwMwzL我正在给 O
 LAY B-positive
 的 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 打榜 O
 ， O
@@ -6828,7 +6828,7 @@ LHGY O
 唱得 O
 真棒 O
 ~ O
-八 I-neutral
+八 B-neutral
 > O
 > O
 http://t.cn/RVUlYk1 O
@@ -7007,7 +7007,7 @@ http://t.cn/RVyorfC O
 向 O
 我们 O
 的 O
-英雄 B-very_positive
+英雄 O
 致敬 O
 [ O
 加油 O
@@ -7842,7 +7842,7 @@ http://t.cn/Ryhln96 O
 ） O
 http://t.cn/RcSYU1q O
 
-& I-negative
+& I-positive
 分享 O
 单曲 O
 http O
@@ -8874,7 +8874,7 @@ Queen O
 # O
 吴亦凡 B-very_positive
 银尘 O
-爵迹 B-negative
+爵迹 B-positive
 # O
 [ O
 困死 O
@@ -9032,7 +9032,7 @@ RVVws6s O
 
 # O
 亚洲 O
-好书 I-neutral
+好书 I-positive
 榜 O
 # O
 年度 O
@@ -9114,8 +9114,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVzmwfr（分享自@ O
@@ -9321,8 +9321,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVw5dJq（分享自@ O
@@ -11137,8 +11137,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVw5dBd（分享自@虾米音乐） O
@@ -11281,7 +11281,7 @@ gf O
 。 O
 天台 O
 四万 O
-八 I-neutral
+八 B-neutral
 千丈 O
 ， O
 对此 O
@@ -11779,7 +11779,7 @@ http://t.cn/R2vtf1P（分享自 O
 关注 O
 哦 O
 ！ O
-杨紫 B-very_positive
+杨紫 B-neutral
 在 O
 青云 B-positive
 志 I-positive
@@ -11831,7 +11831,7 @@ http://t.cn/R2vtf1P（分享自 O
 天津 B-neutral
 滨海新区 O
 京津塘 O
-高速 I-negative
+高速 B-neutral
 塘沽 O
 收费站 I-neutral
 入口 O
@@ -11918,7 +11918,7 @@ CLA O
 设计 O
 ， O
 在 O
-高速 I-negative
+高速 B-neutral
 驾驶 O
 时 O
 可以 O
@@ -12032,7 +12032,7 @@ gf O
 。 O
 天台 O
 四万 O
-八 I-neutral
+八 B-neutral
 千丈 O
 ， O
 对此 O
@@ -12522,8 +12522,8 @@ http://t.cn/RtUdQUn O
 玩 O
 LOL O
 ， O
-英雄 B-very_positive
-联盟 I-very_positive
+英雄 O
+联盟 I-positive
 的 O
 小伙伴 O
 ， O
@@ -12822,8 +12822,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVw5dBd（分享自@ O
@@ -12907,7 +12907,7 @@ http://t.cn/RqxNEdX O
 墙上 O
 枯燥 O
 的 O
-插座 B-very_positive
+插座 B-neutral
 添点 O
 生机 O
 ？ O
@@ -12917,7 +12917,7 @@ http://t.cn/RqxNEdX O
 这组 O
 可爱 O
 的 O
-插座 B-very_positive
+插座 B-neutral
 贴纸 I-very_positive
 吧 O
 。 O
@@ -13500,7 +13500,7 @@ priest O
 别 O
 喝咖啡 O
 ！ O
-荷兰 B-very_positive
+荷兰 B-neutral
 内梅亨 O
 大学 I-positive
 的 O
@@ -13605,7 +13605,7 @@ priest O
 可爱 O
 ] O
 【 O
-眼 B-positive
+眼 I-positive
 精华 O
 买家 O
 秀 O
@@ -13625,7 +13625,7 @@ priest O
 调皮 O
 ] O
 姬存 B-positive
-希 I-neutral
+希 I-positive
 振动 I-positive
 按摩 O
 眼霜 I-positive
@@ -13636,7 +13636,7 @@ priest O
 黑眼圈 O
 ， O
 消除 O
-眼 B-positive
+眼 I-positive
 疲劳 O
 ， O
 谁 O
@@ -15053,7 +15053,7 @@ http://t.cn/RV5bqRj O
 ， O
 贪吃蛇 B-very_positive
 大 O
-作战 I-very_positive
+作战 I-neutral
 ， O
 哈哈哈 O
 ！ O
@@ -15061,7 +15061,7 @@ http://t.cn/RV5bqRj O
 ！ O
 贪吃蛇 B-very_positive
 大 O
-作战 I-very_positive
+作战 I-neutral
 ， O
 全新 O
 玩法 O
@@ -15129,7 +15129,7 @@ MV O
 也 O
 要 O
 唱 O
-足 I-negative
+足 I-neutral
 32场 O
 ！ O
 ” O
@@ -15543,7 +15543,7 @@ pushme O
 好看 O
 的 O
 为了 O
-杨紫 B-very_positive
+杨紫 B-neutral
 才 O
 看 O
 的 O
@@ -15950,8 +15950,8 @@ LAY B-positive
 歌曲 O
 《 O
 what B-positive
-U I-neutral
-need I-neutral
+U I-positive
+need I-positive
 ? O
 》 O
 http://t.cn/RVw5dJq（分享自@ O
@@ -18657,7 +18657,7 @@ http://t.cn/RVVZQWM O
 莫道 O
 醉人 O
 唯美 O
-酒 I-neutral
+酒 I-positive
 ， O
 茶香 O
 入心 O
@@ -18944,7 +18944,7 @@ http://t.cn/RV4UqmP，去下单→http://t.cn/RV4UqEi O
 ， O
 贪吃蛇 B-very_positive
 大 O
-作战 I-very_positive
+作战 I-neutral
 ， O
 哈哈哈 O
 ！ O
@@ -18952,7 +18952,7 @@ http://t.cn/RV4UqmP，去下单→http://t.cn/RV4UqEi O
 ！ O
 贪吃蛇 B-very_positive
 大 O
-作战 I-very_positive
+作战 I-neutral
 ， O
 全新 O
 玩法 O

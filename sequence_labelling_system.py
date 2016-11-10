@@ -184,6 +184,16 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
     from math import log
     from pprint import pprint as pr
     result = []
+
+    numerator,denominator=count_set_emission
+    #calcul prior possibility
+    prior_prob={}
+    sum_of_state = sum(denominator.values())
+    for i in state_set:
+        if i not in ["STOP","START"]:
+            prior_prob[i]= 1.0 * denominator[i] / sum_of_state
+            prior_prob[i] = log(prior_prob[i])
+
     for sequence in sequences:
         result_seq=[]
         pi = defaultdict(dict)
@@ -207,7 +217,7 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
                 pi[index][state]=-10000000.0
                 for previous_state in state_set:
 
-                    emis=log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
+                    emis=prior_prob[state]+log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else prior_prob[state]+log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
 
                     try:
                         tran=log(transition_parameter[previous_state][state])

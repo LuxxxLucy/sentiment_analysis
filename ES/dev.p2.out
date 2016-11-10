@@ -21,7 +21,7 @@ en O
 FB B-neutral
 
 @chavezcandanga O
-bolivar I-negative
+bolivar B-neutral
 mi O
 comandante O
 qiero O
@@ -175,7 +175,7 @@ Callate O
 Ana B-positive
 ksjdksjskdjksjdd O
 
-Ron B-negative
+Ron I-positive
 Mueck I-neutral
 , O
 Marilyn O
@@ -372,7 +372,7 @@ La O
 obra O
 innombrable O
 de O
-Shakespeare I-neutral
+Shakespeare B-neutral
 - O
 Las O
 20 O
@@ -673,7 +673,7 @@ vea O
 a O
 Miguel I-neutral
 Angel O
-Rodriguez I-neutral
+Rodriguez I-positive
 por O
 ANTV B-negative
 . O
@@ -687,7 +687,7 @@ atribuye O
 al O
 periodista O
 ingl\xe9s O
-Arthur I-neutral
+Arthur B-neutral
 Wynne O
 que O
 trabaj\xf3 O
@@ -1019,7 +1019,7 @@ a O
 Vizcarra O
 ? O
 
-Esteban B-negative
+Esteban B-positive
 ordena O
 citar O
 a O
@@ -1523,7 +1523,7 @@ particular O
 como O
 F O
 . O
-Cubillos I-neutral
+Cubillos I-positive
 ayudara O
 m\xe1s O
 a O
@@ -1567,7 +1567,7 @@ Garden O
 , O
 NYC O
 , O
-USA I-neutral
+USA B-neutral
 ( O
 2010 O
 ) O
@@ -1925,7 +1925,7 @@ PhD O
 . O
 
 Guillermo O
-Moreno I-negative
+Moreno I-neutral
 , O
 prometi\xf3 O
 que O
@@ -1983,7 +1983,7 @@ los O
 candidatos O
 fue O
 Diego B-positive
-Arria I-negative
+Arria B-neutral
 . O
 Por O
 eso O
@@ -2142,7 +2142,7 @@ Kobe O
 Bryant O
 y O
 Homero O
-Simpson I-neutral
+Simpson B-neutral
 , O
 en O
 un O
@@ -2159,7 +2159,7 @@ bueno O
 http://bit.ly/bGuicQ O
 
 contra O
-san I-neutral
+san B-neutral
 luis B-negative
 3 O
 lucas O
@@ -2342,7 +2342,7 @@ oscaralhumor001 O
 : O
 @PITERALBEIRO O
 Los O
-Moreno I-negative
+Moreno I-neutral
 siempre O
 cagandola O
 , O
@@ -2701,7 +2701,7 @@ lindo O
 partido O
 . O
 
-Hinzpeter I-negative
+Hinzpeter B-negative
 ya O
 nos O
 lo O
@@ -2739,7 +2739,7 @@ a\xf1os O
 perdidos O
 en O
 el O
-pri B-negative
+pri B-positive
 , O
 x O
 abusos O
@@ -3006,7 +3006,7 @@ con O
 el O
 profe O
 Ignacio B-neutral
-Reyes B-neutral
+Reyes I-positive
 
 @TVN24H O
 Su O
@@ -3198,7 +3198,7 @@ NOTICIA O
 El O
 ministro O
 Rodrigo B-positive
-Hinzpeter I-negative
+Hinzpeter B-negative
 insinu\xf3 O
 que O
 la O
@@ -3431,7 +3431,7 @@ EN O
 ESPA\xd1OL O
 ( O
 Sean O
-Paul I-neutral
+Paul I-positive
 ) O
 " O
 en O
@@ -3814,7 +3814,7 @@ Ya O
 vamos O
 1-0 O
 vamos O
-aguilas B-positive
+aguilas I-positive
 
 @MagdalenaDucoin O
 @SofiMazzucco O
@@ -4521,7 +4521,7 @@ generar O
 interpretaciones O
 . O
 -Umberto O
-Eco I-negative
+Eco I-neutral
 
 ElClubDeLaComendia O
 
@@ -4566,7 +4566,7 @@ para O
 Sra B-positive
 . O
 Filomena O
-Mart\xednez I-negative
+Mart\xednez I-neutral
 en O
 Policl\xednica O
 Las O
@@ -4669,7 +4669,7 @@ ha O
 pasado O
 Ma O
 . O
-Corina I-neutral
+Corina I-positive
 ?? O
 Ganamos O
 ?? O
@@ -4713,7 +4713,7 @@ los O
 representantes O
 del O
 gobierno O
-venezolano I-neutral
+venezolano I-positive
 les O
 pusieron O
 el O
@@ -4882,7 +4882,7 @@ Wilson B-positive
 y O
 muerte O
 de O
-Marina I-negative
+Marina B-positive
 Abramovic' O
 http://t.co/QXRX4QRQ O
 
@@ -5391,7 +5391,7 @@ en O
 geraldine O
 y O
 carlos B-neutral
-bolivar I-negative
+bolivar B-neutral
 ??? O
 
 Estoy O
@@ -5808,8 +5808,8 @@ alimentos B-neutral
 \xbfJonathan O
 Molly O
 es O
-Justin B-negative
-Bieber I-negative
+Justin B-positive
+Bieber I-neutral
 ? O
 
 "Uno O
@@ -6380,7 +6380,7 @@ La O
 Moneda O
 con O
 vicepresidente O
-Hinzpeter I-negative
+Hinzpeter B-negative
 http://t.co/Sdjnn2Vl O
 v\xeda O
 @biobio O
@@ -6639,7 +6639,7 @@ para O
 Chile O
 en O
 los O
-panamericanos I-neutral
+panamericanos B-neutral
 2011 O
 :D O
 
@@ -6835,7 +6835,7 @@ oposici\xf3n O
 , O
 vota O
 por O
-Radonski I-neutral
+Radonski B-neutral
 . O
 
 UMBERTO O
@@ -7207,7 +7207,7 @@ borracho O
 
 Al O
 aire O
-Antonio B-positive
+Antonio I-positive
 Machado O
 Allison O
 , O
@@ -7884,7 +7884,7 @@ globovision B-negative
 : O
 EnVideo O
 Pablo B-neutral
-P\xe9rez I-negative
+P\xe9rez B-negative
 : O
 Iremos O
 a O
@@ -8087,7 +8087,7 @@ en O
 indagatoria O
 a O
 Fidel B-neutral
-Herrera I-negative
+Herrera B-positive
 con O
 Los O
 Zetas O
@@ -8322,7 +8322,7 @@ telefono O
 
 Adam O
 Benitez O
-Rodriguez I-neutral
+Rodriguez I-positive
 wrote O
 : O
 Felicidades O
@@ -8511,7 +8511,7 @@ juego O
 , O
 x O
 eso O
-Leo B-positive
+Leo I-positive
 no O
 contesta O
 tweets" O
@@ -8755,7 +8755,7 @@ la O
 "maquinaria" O
 de O
 Pablo B-neutral
-P\xe9rez I-negative
+P\xe9rez B-negative
 . O
 
 Que O
@@ -9044,7 +9044,7 @@ Liberty O
 azul O
 marino O
 en O
-san I-neutral
+san B-neutral
 Jer\xf3nimon// O
 fue O
 con O
@@ -9083,8 +9083,8 @@ Mariah O
 Carey O
 junto O
 con O
-Justin B-negative
-Bieber I-negative
+Justin B-positive
+Bieber I-neutral
 !! O
 jajaja O
 
@@ -11256,7 +11256,7 @@ que O
 una O
 obra O
 de O
-Shakespeare I-neutral
+Shakespeare B-neutral
 no O
 es O
 m\xe1s O
@@ -11445,7 +11445,7 @@ consuelo O
 q O
 recibio O
 
-FEDERER B-negative
+FEDERER B-positive
 sirviendo O
 para O
 patido O
@@ -11921,7 +11921,7 @@ la O
 CEP O
 de O
 la O
-MUD B-negative
+MUD B-positive
 diga O
 que O
 un O
@@ -12341,7 +12341,7 @@ Mano O
 !!!!! O
 
 Jos\xe9 B-neutral
-Antonio B-positive
+Antonio I-positive
 G\xf3mez B-negative
 : O
 'Creemos O
@@ -12653,7 +12653,7 @@ los O
 buses O
 de O
 la O
-Divisi\xf3n I-neutral
+Divisi\xf3n I-positive
 El O
 Teniente O
 . O
@@ -12803,7 +12803,7 @@ COME O
 CRUZAA O
 
 Felipe B-positive
-Cubillos I-neutral
+Cubillos I-positive
 son O
 de O
 esas O
@@ -13053,7 +13053,7 @@ Febles O
 leyenda O
 del O
 f\xfatbol O
-venezolano I-neutral
+venezolano I-positive
 http://t.co/zPPBAoDk O
 
 Inamovilidad O
@@ -13310,7 +13310,7 @@ bien O
 ataque O
 directo O
 a O
-Polar I-neutral
+Polar I-positive
 bajarle O
 el O
 precio O
@@ -14869,7 +14869,7 @@ y O
 juliocmontoya O
 en O
 la O
-Polar I-neutral
+Polar I-positive
 dando O
 los O
 juguetes O
@@ -15265,8 +15265,8 @@ RT O
 \xbfJonathan O
 Molly O
 es O
-Justin B-negative
-Bieber I-negative
+Justin B-positive
+Bieber I-neutral
 ? O
 
 @aicirhayden O
@@ -15343,7 +15343,7 @@ No O
 le O
 hagas O
 caso O
-raul I-negative
+raul B-neutral
 , O
 ella O
 es O
@@ -15384,7 +15384,7 @@ la O
 Juve O
 en O
 El O
-Salvador B-negative
+Salvador I-positive
 ...... O
 Grande O
 la O
@@ -15512,7 +15512,7 @@ Hanks O
 . O
 
 \u200e\u200bLa O
-MUD B-negative
+MUD B-positive
 anuncia O
 que O
 entregar\xe1 O
@@ -15900,7 +15900,7 @@ los O
 verdaderos O
 hinchas O
 del O
-Colo B-positive
+Colo I-positive
 , O
 no O
 , O
@@ -16316,7 +16316,7 @@ beneficio O
 de O
 los O
 candidato O
-MUD B-negative
+MUD B-positive
 
 No O
 quiero O
@@ -16460,7 +16460,7 @@ http://t.co/iHXa0T2o) O
 Como O
 diria O
 Hector B-positive
-Moreno I-negative
+Moreno I-neutral
 , O
 la O
 competencia O
@@ -16699,7 +16699,7 @@ saludos O
 Ganador O
 del O
 Premio O
-Nobel I-neutral
+Nobel B-neutral
 por O
 la O
 Paz O
@@ -16820,7 +16820,7 @@ Orozco O
 ? O
 
 Homero O
-Simpson I-neutral
+Simpson B-neutral
 es O
 de O
 esos O
@@ -16876,7 +16876,7 @@ cuadramos O
 Gran O
 abrazo O
 . O
-Leo B-positive
+Leo I-positive
 
 Regresar\xe1 O
 Kalimba O
@@ -17070,7 +17070,7 @@ hacer O
 el O
 prd O
 contra O
-pri B-negative
+pri B-positive
 , O
 pan O
 y O
