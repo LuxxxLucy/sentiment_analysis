@@ -3275,7 +3275,7 @@ se O
 tomaron O
 fotos O
 con O
-Makled O
+Makled B-negative
 
 "El O
 baloncesto O
@@ -5084,7 +5084,7 @@ Tozzini O
 @Yannilo O
 
 vamos O
-everton B-neutral
+everton B-positive
 
 "Es O
 mejor O
@@ -5411,8 +5411,8 @@ propia O
 debilidad O
 . O
 Mohandas O
-Karamchand B-neutral
-Gandhi I-neutral
+Karamchand O
+Gandhi O
 
 Ya O
 conoc\xed O
@@ -7147,7 +7147,7 @@ los O
 portones O
 de O
 la O
-UNAH B-neutral
+UNAH B-negative
 
 http://t.co/9j86c8EQ O
 - O
@@ -7393,7 +7393,7 @@ Mario B-neutral
 hogilla I-neutral
 probable I-neutral
 candidato I-neutral
-del O
+del I-neutral
 gobierno O
 a O
 Globovis O
@@ -8756,7 +8756,7 @@ la O
 de O
 Pablo B-neutral
 P\xe9rez I-neutral
-. I-neutral
+. O
 
 Que O
 pasa O
@@ -10100,7 +10100,7 @@ en O
 Primera O
 Pagina O
 en O
-Globovision B-neutral
+Globovision O
 
 Hasta O
 las O
@@ -10736,8 +10736,8 @@ Posterous O
 ya O
 es O
 de O
-Twitter B-positive
-http://t.co/6IPHjHpv O
+Twitter B-neutral
+http://t.co/6IPHjHpv I-neutral
 
 La O
 Xunta O
@@ -10771,8 +10771,8 @@ tambi\xe9n O
 lo O
 hagas O
 ... O
-Pablo O
-Neruda O
+Pablo B-neutral
+Neruda I-neutral
 
 Antes O
 golpeaba O
@@ -13114,7 +13114,7 @@ obtiene O
 Ralph B-neutral
 Waldo I-neutral
 Emerson I-neutral
-. I-neutral
+. O
 
 TVE O
 terminar\xe1 O
@@ -13621,7 +13621,7 @@ pendejada O
 escribo O
 en O
 twitter B-neutral
-. I-neutral
+. O
 
 Apenas O
 termin\xf3 O
@@ -15783,7 +15783,7 @@ entrar O
 a O
 mi O
 facebook B-neutral
-. I-neutral
+. O
 
 El O
 s\xe1bado O

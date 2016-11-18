@@ -1,5 +1,5 @@
 from collections import defaultdict
-
+import pdb
 def read_file(filename,type="no_label"):
     f = open(filename,'r')
     if type=="no_label":
@@ -237,9 +237,9 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
         pi[len(sequence)+1]["STOP"]=-10000000
         for state in state_set:
             try:
-                tran = transition_parameter[state]["STOP"]
+                tran = log(transition_parameter[state]["STOP"])
             except:
-                tran=0
+                tran = -100000000
             if pi[len(sequence)][state]+tran > pi[len(sequence)+1]["STOP"]:
                 pi[len(sequence)+1]["STOP"]= pi[len(sequence)][state]+tran
                 track[len(sequence)+1]["STOP"]=state
@@ -269,7 +269,128 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
 
     return result
 
+def predict_using_Viterbi_top_k(sequences,state_set,transition_parameter,emission_parameter,count_set_emission,number_k=5):
+    from math import log
+    from pprint import pprint as pr
+    result = []
+    for k in range(number_k):
+        result.append([])
+    numerator,denominator=count_set_emission
+    #calcul prior possibility
+    prior_prob={}
+    sum_of_state = sum(denominator.values())
+    for i in state_set:
+        if i not in ["STOP","START"]:
+            prior_prob[i]= 1.0 * denominator[i] / sum_of_state
+            prior_prob[i] = log(prior_prob[i])
 
+    for sequence in sequences:
+
+
+
+        pi_set=list()
+        track_set=list()
+        for k in range(number_k):
+            pi = defaultdict(dict)
+            pi[0]=defaultdict(lambda:-10000000.0)
+
+            for state in state_set:
+                pi[0][state] = -10000000 if state!="START" else 0
+            pi_set.append(pi)
+
+            track = defaultdict(dict)
+            track[0] = defaultdict(lambda:["START",0])
+            track_set.append(track)
+
+
+        for i,word in enumerate(sequence):
+            #i is 0~len(sequence-1) add one to it to form an index of 1~len(sequence)
+            index=i+1
+            for k in range(number_k):
+
+                pi_set[k][index]=defaultdict(lambda:-10000000.0)
+                track_set[k][index]=defaultdict(lambda:["START",0])
+
+
+
+            for state in state_set:
+
+                if state in ["START","STOP"]:continue
+                compare_set=list()
+                for k in range(number_k):
+                    pi_set[k][index][state]=-10000000.0
+                    for previous_state in state_set:
+
+                        emis=log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else prior_prob[state]+log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
+
+                        #emis=log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
+
+                        try:
+                            tran=log(transition_parameter[previous_state][state])
+                        except:
+                            continue
+
+                        temp_value=pi_set[k][index-1][previous_state]+emis+tran
+                        compare_set.append([previous_state,k,temp_value])
+
+
+
+                compare_set.sort(key=lambda temp:temp[2],reverse=True)
+
+                for k in range(number_k):
+                    pi_set[k][index][state]=compare_set[k][2]
+                    track_set[k][index][state]=compare_set[k][0:2]
+
+                del compare_set
+
+        # now compute the final score
+        for k in range(number_k):
+            pi_set[k][len(sequence)+1]["STOP"]=-10000000
+
+        compare_set=[]
+        for state in state_set:
+            try:
+                tran = transition_parameter[state]["STOP"]
+            except:
+                tran = 0
+            for k in range(number_k):
+                temp_value=pi_set[k][len(sequence)][state]+tran
+                compare_set.append([state,k,temp_value])
+
+        compare_set.sort(key=lambda temp:temp[2],reverse=True)
+        for k in range(number_k):
+            pi_set[k][len(sequence)+1]["STOP"]=compare_set[k][2]
+            track_set[k][len(sequence)+1]["STOP"]=compare_set[k][0:2]
+
+        #pr(track_set)
+
+        def back_tracking_top_k(length,state,k):
+            try:
+
+                if state!= "START" :
+
+                    back_tracking_top_k(length-1,track_set[k][length][state][0],track_set[k][length][state][1])
+
+                    if state!="STOP" :
+                        result_seq.append([sequence[length-1],state])
+
+                    return
+                else :
+                    return
+            except:
+
+                print("index error!on ",length," of state ",state,"number",k)
+
+        #pr(pi)
+        for k in range(number_k):
+
+            result_seq=[]
+            back_tracking_top_k(len(sequence)+1,"STOP",k)
+
+            result[k].append(result_seq)
+            del result_seq
+
+    return result
 
 
 def evaluate(data_set,standard_set):
@@ -477,10 +598,70 @@ def learn_and_predict_evaluate_part_3(identifier_name="CN"):
     print(p,r,f)
 
 
+def project_part_4():
+    language=["CN","EN","ES","SG"]
+    for lan in language:
+        learn_and_predict_evaluate_part_4(lan)
+    return
+
+def learn_and_predict_evaluate_part_4(identifier_name="CN"):
+
+    from pprint import pprint as pr
+    # train data set
+    labelled_data=read_file(identifier_name+'/train',type="with_label")
+    word_set = set(it[0] for sequence in labelled_data for it in sequence )
+    label_set = set(it[1] for sequence in labelled_data for it in sequence )
+    label_set.add("STOP")
+    label_set.add("START")
+
+    # test data set
+    test_data=read_file(identifier_name+"/dev.in",type="no_label")
+    # standard data set
+    standard_data=read_file(identifier_name+"/dev.out",type="with_label")
 
 
+    transition_parameters,_,_ = transition_parameter_calcul_on_train_set(labelled_data,label_set)
+    emission_parameters,count_1,count_2 = emission_parameter_calcul_on_train_set(labelled_data,label_set,word_set)
+
+    #pr(transition_parameters)
+    #pr(emission_parameters)
+
+    test_result=predict_using_Viterbi_top_k(test_data,label_set,transition_parameter=transition_parameters,emission_parameter=emission_parameters,count_set_emission=(count_1,count_2),number_k=5)
+
+    print(write_file(identifier_name+"/dev.p4.out",test_result[4]))
+    #try:
+    #    for i in range(5):
+    #       pr(test_result[i][0])
+    #except:
+    #    print(i)
+
+    p,r,f=evaluate(test_result[0],standard_data)
+    print(p,r,f)
+
+    p,r,f=evaluate(test_result[1],standard_data)
+    print(p,r,f)
+
+    p,r,f=evaluate(test_result[2],standard_data)
+    print(p,r,f)
+    p,r,f=evaluate(test_result[3],standard_data)
+    print(p,r,f)
+    p,r,f=evaluate(test_result[4],standard_data)
+    print(p,r,f)
+    # p,r,f=evaluate(test_result[5],standard_data)
+    # print(p,r,f)
+    # p,r,f=evaluate(test_result[6],standard_data)
+    # print(p,r,f)
+    # p,r,f=evaluate(test_result[7],standard_data)
+    # print(p,r,f)
+    # p,r,f=evaluate(test_result[8],standard_data)
+    # print(p,r,f)
+    # p,r,f=evaluate(test_result[9],standard_data)
+    print(p,r,f)
 #project_part_2_prepare()
-project_part_2()
+#project_part_2()
 #learn_and_predict_evaluate_part_2("EN")
 project_part_3()
 #learn_and_predict_evaluate_part_3("CN")
+
+project_part_4()
+#learn_and_predict_evaluate_part_4("CN")
