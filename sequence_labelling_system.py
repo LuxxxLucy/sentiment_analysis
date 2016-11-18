@@ -295,7 +295,7 @@ def predict_using_Viterbi_top_k(sequences,state_set,transition_parameter,emissio
             pi[0]=defaultdict(lambda:-10000000.0)
 
             for state in state_set:
-                pi[0][state] = -10000000 if state!="START" else 0
+                pi[0][state] = -10000000 if state!="START" or k!=0 else 0
             pi_set.append(pi)
 
             track = defaultdict(dict)
@@ -656,7 +656,7 @@ def learn_and_predict_evaluate_part_4(identifier_name="CN"):
     # p,r,f=evaluate(test_result[8],standard_data)
     # print(p,r,f)
     # p,r,f=evaluate(test_result[9],standard_data)
-    print(p,r,f)
+    # print(p,r,f)
 #project_part_2_prepare()
 #project_part_2()
 #learn_and_predict_evaluate_part_2("EN")
