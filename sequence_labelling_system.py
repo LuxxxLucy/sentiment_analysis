@@ -217,7 +217,9 @@ def predict_using_Viterbi(sequences,state_set,transition_parameter,emission_para
                 pi[index][state]=-10000000.0
                 for previous_state in state_set:
 
-                    emis=prior_prob[state]+log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else prior_prob[state]+log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
+                    emis=log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else prior_prob[state]+log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
+
+                    #emis=log(emission_parameter[state][word]) if emission_parameter[state][word]!=0 else log(emission_parameter_calcul(state,word,count_set=count_set_emission,labelled_data=None))
 
                     try:
                         tran=log(transition_parameter[previous_state][state])
@@ -354,20 +356,31 @@ def evaluate(data_set,standard_set):
             for tempa,tempb in zip(a,b):
                 if tempa[0]!=tempb[0] or tempa[1][0]!=tempb[1][0] or tempa[1][1]!=tempb[1][1] :
                     return 0
-
+            from pprint import pprint as pr
+            #pr("correct predict!")
+            #pr(a)
+            #pr(b)
             return 1
 
         for pre in current_predict_bin:
             for gold in current_gold_predict_bin:
                 if equal(pre,gold)==1:
+
                     correct_pedicts+=1
 
     print("correct predicts ", correct_pedicts,"total number of predict we made ",predicts,"gold predicts",gold_predicts)
-    precision = 1.0*correct_pedicts/predicts
-    recall = 1.0*correct_pedicts/gold_predicts
+    try:
+        precision = 1.0*correct_pedicts/predicts
+    except(ZeroDivisionError):
+        precision = 0.0
+    try:
+        recall = 1.0*correct_pedicts/gold_predicts
+    except(ZeroDivisionError):
+        recall = 0.0
+
     try:
         F = 2.0 / (1.0/precision+1.0/recall)
-    except:
+    except(ZeroDivisionError):
         F = 0
 
     return (precision,recall,F)
@@ -438,19 +451,23 @@ def project_part_3():
 def learn_and_predict_evaluate_part_3(identifier_name="CN"):
 
     from pprint import pprint as pr
+    # train data set
     labelled_data=read_file(identifier_name+'/train',type="with_label")
     word_set = set(it[0] for sequence in labelled_data for it in sequence )
     label_set = set(it[1] for sequence in labelled_data for it in sequence )
     label_set.add("STOP")
     label_set.add("START")
+
+    # test data set
     test_data=read_file(identifier_name+"/dev.in",type="no_label")
+    # standard data set
     standard_data=read_file(identifier_name+"/dev.out",type="with_label")
 
 
     transition_parameters,_,_ = transition_parameter_calcul_on_train_set(labelled_data,label_set)
     emission_parameters,count_1,count_2 = emission_parameter_calcul_on_train_set(labelled_data,label_set,word_set)
 
-    # pr(transition_parameters)
+    #pr(transition_parameters)
     #pr(emission_parameters)
 
     test_result=predict_using_Viterbi(test_data,label_set,transition_parameter=transition_parameters,emission_parameter=emission_parameters,count_set_emission=(count_1,count_2))
@@ -462,8 +479,8 @@ def learn_and_predict_evaluate_part_3(identifier_name="CN"):
 
 
 
-project_part_2_prepare()
+#project_part_2_prepare()
 project_part_2()
-# learn_and_predict_evaluate_part_2("EN")
+#learn_and_predict_evaluate_part_2("EN")
 project_part_3()
-# learn_and_predict_evaluate_part_3("CN")
+#learn_and_predict_evaluate_part_3("CN")
